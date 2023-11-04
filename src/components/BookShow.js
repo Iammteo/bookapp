@@ -31,7 +31,7 @@ function BookShow({book, onDelete , onEdit}) {
         <div>{content}</div>
     <div className="actions">
     <button className="edit" onClick={handleEditClick}>Edit </button>
-   <button className="delete" onClick={handleDeleteClick}>Delete</button>
+   <button className="delete" onClick={handleDeleteClick}>Delete now</button>
    </div>
 
     
