@@ -18,7 +18,7 @@ function BookEdit({book, onSubmit}) {
     <label>Title</label>
     <input className="input" value={title} onChange={handleChange}/>
     <button className="button is-primary">
-        Save
+        Save now 
     </button>
     </form>;
 }
